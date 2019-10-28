@@ -24,6 +24,7 @@
     height: 400px;
     margin: 50px, 50px;
     display: inline-block;
+    visibility: hidden;
 }
 
 .red {
