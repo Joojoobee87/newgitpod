@@ -52,7 +52,8 @@
 }
 
 .activity-section {
-    min-height: 250px;
+    position: relative;
+    min-height: 280px;
     max-height: 280px;
     margin-top: 50px;
     border-bottom: 2px solid black;
@@ -64,15 +65,26 @@
     float: left;
 }
 
-.activity h3,
-.activity p{
-    margin-left: 15px;
+.activity {
     display: block;
     overflow: hidden;
-}
-
-.activity-section {
-  background: -webkit-linear-gradient(top, black 70%, #eee);
+    max-height:280px;
+      background: -webkit-linear-gradient(top, black 70%, #eee);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
-  }
+}
+
+.more-info {
+  position: absolute;
+  z-index: 1;
+  bottom: 0%;
+  right: 0%;
+  margin-bottom: 10px;
+  margin-right: 10px;
+  background-color: pink;
+  color: black;
+  font-family: 'Nunito', sans-serif;
+  font-size: 12px;
+  padding: 5px;
+  border-radius: 15px;
+}
