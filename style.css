@@ -45,3 +45,8 @@
 .highlight {
     background-color: lime;
 }
+
+.image {
+    width: 600px;
+    height: 400px;
+}
