@@ -46,7 +46,33 @@
     background-color: lime;
 }
 
-.image {
-    width: 600px;
-    height: 400px;
+.main-section {
+    max-width: 80%;
+    margin: auto;
 }
+
+.activity-section {
+    min-height: 250px;
+    max-height: 280px;
+    margin-top: 50px;
+    border-bottom: 2px solid black;
+    margin: 2px 0 0 0;
+}
+
+.activity img {
+    margin-right: 15px;
+    float: left;
+}
+
+.activity h3,
+.activity p{
+    margin-left: 15px;
+    display: block;
+    overflow: hidden;
+}
+
+.activity-section {
+  background: -webkit-linear-gradient(top, black 70%, #eee);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  }
