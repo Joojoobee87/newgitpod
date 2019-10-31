@@ -88,3 +88,17 @@
   padding: 5px;
   border-radius: 15px;
 }
+
+.image-button {
+    display: block;
+    position: relative;
+    float: left;
+    width: 100px;
+    height: 50px;
+    border: black;
+    background-color: red;
+}
+
+.image{
+    display: none;
+}
