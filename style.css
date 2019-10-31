@@ -101,4 +101,5 @@
 
 .image{
     display: none;
+    max-height: 400px;
 }
