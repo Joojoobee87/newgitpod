@@ -43,12 +43,14 @@ $(document).ready(function() {
             }
             $(images[index - 1]).css("display", "block");
         })
+
         $(prevButton).on('click', function() {
+            console.log(images);
             for (i = 0; i < images.length; i++) {
                 $(images[i]).css("display", "none");
                 console.log(images[i]);
             }
-            index++;
+            index--;
             console.log(index);
             if (index < 0) {
                 $(images[images.length - i]).css("display", "block");
